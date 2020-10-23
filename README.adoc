@@ -1,0 +1,9 @@
+= Anthony's blog
+Anthony Perkins
+
+I have decided to start keeping a blog for when I'm troubleshooting something. This will help me in
+the future by giving me something that I can refer back to.
+
+If you notice any mistakes please feel free to let me know, or submit a patch or a pull request.
+
+Please see the file link:COPYRIGHT.adoc[COPYRIGHT.adoc] for copyright and usage terms.
