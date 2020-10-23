@@ -9,4 +9,10 @@ Github at https://github.com/acperkins/blog.
 
 If you notice any mistakes please feel free to let me know, or submit a patch or a pull request.
 
+== Disclaimer
+
+All views are my own, and do not represent those of my employer.
+
+== License
+
 Please see the file link:COPYRIGHT.adoc[COPYRIGHT.adoc] for copyright and usage terms.
