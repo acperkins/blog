@@ -9,6 +9,11 @@ Github at https://github.com/acperkins/blog.
 
 If you notice any mistakes please feel free to let me know, or submit a patch or a pull request.
 
+== Most recent posts
+
+1. link:2021/2021-03-12_SyncStopped365.adoc[Synchronization with Microsoft 365 stopped]
+1. link:2020/2020-10-23_ExchangeUsedDiskSpace.adoc[Exchange Used Disk Space warning]
+
 == Disclaimer
 
 All views are my own, and do not represent those of my employer.
