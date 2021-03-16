@@ -4,7 +4,7 @@ Anthony Perkins
 I have decided to start keeping a blog for when I'm troubleshooting something. This will help me in
 the future by giving me something that I can refer back to.
 
-The canonical URL for this blog is https://code.acperkins.com/acp/blog and there is a mirror on
+The canonical URL for this blog is https://acperkins.com/acp/blog and there is a mirror on
 Github at https://github.com/acperkins/blog.
 
 If you notice any mistakes please feel free to let me know, or submit a patch or a pull request.
