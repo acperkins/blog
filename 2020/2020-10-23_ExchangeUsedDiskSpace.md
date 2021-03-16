@@ -1,20 +1,19 @@
-= Exchange Used Disk Space warning
-Anthony Perkins
+# Exchange Used Disk Space warning
 2020-10-23
+
+---
 
 When sending an email from a CentOS server via an Exchange relay, I got the following warning from
 the `mailq` command and in `/var/log/maillog`:
 
-[listing]
-----
+```
 452 4.3.1 Insufficient system resources (UsedDiskSpace[C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data\Queue]) (in reply to end of DATA command))
-----
+```
 
-I checked the Event Viewer on the mail server in question, and *Event 15006, MSExchangeTransport*
+I checked the Event Viewer on the mail server in question, and **Event 15006, MSExchangeTransport**
 had been logged:
 
-[listing]
-----
+```
 Microsoft Exchange Transport is rejecting message submissions because the available disk space has dropped below the configured threshold.The following resources are under pressure:
 Used disk space ("C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data\Queue")
 Used disk space ("C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data")
@@ -36,7 +35,7 @@ Version buckets[C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\da
 Jet Sessions[C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data\Queue\mail.que]
 Checkpoint Depth[C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data\Queue\mail.que]
 Queue database and disk space ("C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data\Queue\mail.que")
-----
+```
 
 It turns out that Exchange has thresholds for disk usage, known as _back pressure_. If the disk is
 over approximately 90% capacity (which this disk was) then mail is not accepted from relay hosts. At
@@ -48,6 +47,6 @@ mail relaying stopped completely.
 
 Once I increased the disk capacity on the drive in question, mail started flowing again.
 
-'''
+---
 
 Copyright © 2020 Anthony Perkins. Some rights reserved.
