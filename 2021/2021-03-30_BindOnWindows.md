@@ -67,7 +67,8 @@ Save this file with **ANSI** encoding as `C:\Program Files\ISC BIND 9\etc\named.
 
 ## Required zone files
 
-You will also need to create the following files in the same way:
+You will also need to create the following files in `C:\Program Files\ISC BIND 9\etc` in the same
+way, all with **ANSI** encoding:
 
 ### db.0
 
