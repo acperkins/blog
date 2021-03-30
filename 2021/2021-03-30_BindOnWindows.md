@@ -20,17 +20,25 @@ Start Notepad as administrator, and paste the following into it:
 
 ```
 options {
-        directory "C:\Program Files\ISC BIND 9\etc";
-        dnssec-validation auto;
-
-        listen-on-v6 { any; };
+	directory "C:\Program Files\ISC BIND 9\etc";
+	dnssec-validation auto;
+	listen-on { any; };
+	listen-on-v6 { any; };
 };
 
 zone "." {
-        type hint;
-        file "named.root";
+	type hint;
+	file "named.root";
 };
 ```
+
+Change the **listen-on** and **listen-on-v6** lines as appropriate. For example, to listen only on
+localhost, set them to:
+
+````
+listen-on { 127.0.0.1; };
+listen-on-v6 { ::1; };
+````
 
 Save this file with **ANSI** encoding as `C:\Program Files\ISC BIND 9\etc\named.conf`.
 
