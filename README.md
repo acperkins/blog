@@ -4,8 +4,7 @@ I have decided to start keeping a blog for when I'm troubleshooting something. T
 the future by giving me something that I can refer back to.
 
 The canonical URL for this blog is
-[acperkins.com/acp/blog](https://acperkins.com/acp/blog) and there is a
-[mirror on Github](https://github.com/acperkins/blog).
+[github.com/acperkins/blog](https://github.com/acperkins/blog).
 
 If you notice any mistakes please feel free to let me know, or submit a patch or a pull request.
 
