@@ -10,6 +10,7 @@ If you notice any mistakes please feel free to let me know, or submit a patch or
 
 ## Most recent posts
 
+1. [Fossil SSH command on Windows](2021/2021-04-05_FossilSshWindows.md)
 1. [Using SSH Agent on Windows 10](2021/2021-03-31_SshAgentOnWindows.md)
 1. [Running ISC BIND on Windows](2021/2021-03-30_BindOnWindows.md)
 1. [Synchronization with Microsoft 365 stopped](2021/2021-03-12_SyncStopped365.md)
