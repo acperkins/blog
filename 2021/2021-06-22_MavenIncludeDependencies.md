@@ -33,7 +33,7 @@ following:
 
   <groupId>com.example</groupId>
   <artifactId>App</artifactId>
-  <version>1.0</version>
+  <version>0.1.0</version>
 
   <dependencies>
   </dependencies>
