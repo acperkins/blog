@@ -34,6 +34,7 @@ following:
   <groupId>com.example</groupId>
   <artifactId>App</artifactId>
   <version>0.1.0</version>
+  <packaging>jar</packaging>
 
   <dependencies>
   </dependencies>
